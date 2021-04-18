@@ -43,10 +43,19 @@ img{ /*Deixar imagens responsivas*/
     justify-content:space-between; /*Faz com que as areas tenham um espaçamento iguais*/
 }
 
+.logo_jds {
+    width: 22%;
+    max-width: 100%;
+    opacity: 0.8;
+    margin-left: 40%;
+    margin-top: 60px;
+    
+}
+
 .logo{
-    margin-top: 10px;
+    margin-top: 15px;
     color: white;
-    font-family: 'Lobster', cursive;
+    font-family: 'algerian', cursive;
 }
 
 .logo2{
@@ -127,6 +136,7 @@ img{ /*Deixar imagens responsivas*/
 .banner_titulo{
     font-size: 25px;
     font-family: 'Amatic SC', cursive;
+    margin-top: 50px;
     
 }
 
@@ -144,6 +154,11 @@ img{ /*Deixar imagens responsivas*/
     text-align: center;
     
 }
+.carrousel {
+    background: rgb(184, 168, 168);
+
+}
+
 
 .orcamento {
 
@@ -195,7 +210,7 @@ img{ /*Deixar imagens responsivas*/
 .footer{
     background: #333;
     color: #FFF;
-    padding: 10px; /*espaçamento entre os icones*/
+    padding: 2px; /*espaçamento entre os icones*/
     text-align: center;
 }
 
@@ -222,11 +237,20 @@ img{ /*Deixar imagens responsivas*/
 }
 
 .copy{
-    font-size: 13px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    color: #CD853F;
+    color: #a19c96;
     margin-bottom: 20px;
+}
 
+.copy a {
+    text-decoration: none;
+    color: #a19c96;
+}
+
+.copy a:hover {
+    text-decoration: none;
+    color: #FBA919;
 }
 
 .for_contato{
@@ -283,19 +307,16 @@ img{ /*Deixar imagens responsivas*/
 
 .conectar {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
-.seta {
-    width: 40px;
-    height: 30px;
-    margin: 10px auto;
-    
+.bannerPrincipal {
+    width: 100%;
 }
 
 
-/*Icone Whatssap Flutuante
+/* Icone Whatssap Flutuante
 .whatsapp {
     position: fixed;
     top: 82%;
@@ -306,7 +327,7 @@ img{ /*Deixar imagens responsivas*/
     width: 80px;
     height: 80px;
     
-}*/
+} */
 
 
 
@@ -319,16 +340,26 @@ img{ /*Deixar imagens responsivas*/
         margin: 0;
         margin-top: 50px;
         font-size: 20px;
+        margin-top: 50px;
     }
 
     .bannerPrincipal {
         height: 200px;
+        width: 100%;
     }
 
     .logo {
         font-size: 26px;
         margin-top: 25px;
         margin-left: 10px;
+    }
+
+    .logo_jds {
+        width: 22%;
+        max-width: 100%;
+        opacity: 0.8;
+        margin-left: 40%;
+        margin-top: 30px;
     }
 
     .icon-menu {
@@ -366,6 +397,7 @@ img{ /*Deixar imagens responsivas*/
     .banner_titulo{
         font-size: 25px;
         margin: 5px 0; 
+        margin-top: 150px;
     }
 
     .banner_txt{
@@ -435,6 +467,7 @@ img{ /*Deixar imagens responsivas*/
 
     .servicos_titulo{
         font-size: 25px;
+        font-weight: 700;
     }
 
     .info{
@@ -517,6 +550,7 @@ img{ /*Deixar imagens responsivas*/
     .info_titulo{
         font-size: 25px;
         text-align: center;
+        font-weight: 700;
     }
 
     .servicos_descricao{
@@ -596,7 +630,7 @@ padding: 30px;
 }
 
 .fundo_fotos{
-    background-color: whitesmoke);
+    background-color: whitesmoke;
 }
 
 .header2{
@@ -629,4 +663,72 @@ padding: 30px;
 
 
 
+.contato-titulo {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #490000;
+}
 
+
+.social-menu ul {
+    position: absolute;
+    padding: 0;
+    margin: 10px 50% 10% 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+    
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+} 
+
+.social-menu ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #fff;
+}
+
+/* .social-menu ul li .fa:hover {
+    color: #fff;
+} */
+
+.social-menu {
+    width: 100%;
+    height: 100px;
+    /* background: red;
+    box-sizing: border-box; */
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FBA919;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgb(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover { 
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #25D366;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #dd4b39;
+}
+
+}
